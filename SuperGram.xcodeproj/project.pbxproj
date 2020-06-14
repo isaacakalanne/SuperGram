@@ -101,7 +101,9 @@
 			children = (
 				1138AC62249652C600B0BFA5 /* AppDelegate.swift */,
 				1138AC64249652C600B0BFA5 /* SceneDelegate.swift */,
-				1138AC66249652C600B0BFA5 /* ViewController.swift */,
+				1138AC952496570C00B0BFA5 /* View Controllers */,
+				1138AC942496570700B0BFA5 /* Models */,
+				1138AC92249656F900B0BFA5 /* Views */,
 				1138AC68249652C600B0BFA5 /* Main.storyboard */,
 				1138AC6B249652D300B0BFA5 /* Assets.xcassets */,
 				1138AC6D249652D300B0BFA5 /* LaunchScreen.storyboard */,
@@ -126,6 +128,28 @@
 				1138AC86249652D400B0BFA5 /* Info.plist */,
 			);
 			path = SuperGramUITests;
+			sourceTree = "<group>";
+		};
+		1138AC92249656F900B0BFA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1138AC942496570700B0BFA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1138AC952496570C00B0BFA5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1138AC66249652C600B0BFA5 /* ViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
