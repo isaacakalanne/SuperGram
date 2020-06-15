@@ -18,6 +18,7 @@
 		1138AC98249663E600B0BFA5 /* PreviewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138AC97249663E500B0BFA5 /* PreviewButton.swift */; };
 		1138AC9C249772D400B0BFA5 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138AC9B249772D400B0BFA5 /* Preview.swift */; };
 		1138AC9E2497749300B0BFA5 /* PreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138AC9D2497749300B0BFA5 /* PreviewViewModel.swift */; };
+		1138ACA12497828100B0BFA5 /* ButtonFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA02497828100B0BFA5 /* ButtonFormatting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1138AC97249663E500B0BFA5 /* PreviewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewButton.swift; sourceTree = "<group>"; };
 		1138AC9B249772D400B0BFA5 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 		1138AC9D2497749300B0BFA5 /* PreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewModel.swift; sourceTree = "<group>"; };
+		1138ACA02497828100B0BFA5 /* ButtonFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormatting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				1138AC62249652C600B0BFA5 /* AppDelegate.swift */,
 				1138AC64249652C600B0BFA5 /* SceneDelegate.swift */,
+				1138AC9F2497823600B0BFA5 /* Extensions */,
 				1138AC952496570C00B0BFA5 /* View Controllers */,
 				1138AC942496570700B0BFA5 /* Models */,
 				1138AC92249656F900B0BFA5 /* Views */,
@@ -167,6 +170,14 @@
 				1138AC9D2497749300B0BFA5 /* PreviewViewModel.swift */,
 			);
 			name = "View Models";
+			sourceTree = "<group>";
+		};
+		1138AC9F2497823600B0BFA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1138ACA02497828100B0BFA5 /* ButtonFormatting.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 				1138AC67249652C600B0BFA5 /* ViewController.swift in Sources */,
 				1138AC9C249772D400B0BFA5 /* Preview.swift in Sources */,
 				1138AC9E2497749300B0BFA5 /* PreviewViewModel.swift in Sources */,
+				1138ACA12497828100B0BFA5 /* ButtonFormatting.swift in Sources */,
 				1138AC63249652C600B0BFA5 /* AppDelegate.swift in Sources */,
 				1138AC65249652C600B0BFA5 /* SceneDelegate.swift in Sources */,
 			);

@@ -16,12 +16,8 @@ public class PreviewButton: UIButton {
         self.frame = frame
         self.imageView?.image = image
         
-        self.clipsToBounds = true
-        
-        self.layer.cornerRadius = frame.size.height/4
-        self.layer.borderWidth = 3
-        
-        self.layer.borderColor = UIColor.black.cgColor
+        self.roundCorners()
+        self.addBorder()
     }
     
     required init?(coder: NSCoder) {
