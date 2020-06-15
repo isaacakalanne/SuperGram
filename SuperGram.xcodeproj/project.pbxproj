@@ -22,6 +22,7 @@
 		1138ACA32497843E00B0BFA5 /* SelfieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA22497843E00B0BFA5 /* SelfieView.swift */; };
 		1138ACA524978C2900B0BFA5 /* ImageEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA424978C2900B0BFA5 /* ImageEditing.swift */; };
 		1138ACA724978DD000B0BFA5 /* Selfie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA624978DD000B0BFA5 /* Selfie.swift */; };
+		1138ACA92497A1F800B0BFA5 /* SelfieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA82497A1F800B0BFA5 /* SelfieViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		1138ACA22497843E00B0BFA5 /* SelfieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieView.swift; sourceTree = "<group>"; };
 		1138ACA424978C2900B0BFA5 /* ImageEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditing.swift; sourceTree = "<group>"; };
 		1138ACA624978DD000B0BFA5 /* Selfie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selfie.swift; sourceTree = "<group>"; };
+		1138ACA82497A1F800B0BFA5 /* SelfieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				1138AC9D2497749300B0BFA5 /* PreviewViewModel.swift */,
+				1138ACA82497A1F800B0BFA5 /* SelfieViewModel.swift */,
 			);
 			name = "View Models";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			files = (
 				1138AC98249663E600B0BFA5 /* PreviewButton.swift in Sources */,
 				1138ACA724978DD000B0BFA5 /* Selfie.swift in Sources */,
+				1138ACA92497A1F800B0BFA5 /* SelfieViewModel.swift in Sources */,
 				1138AC67249652C600B0BFA5 /* ViewController.swift in Sources */,
 				1138AC9C249772D400B0BFA5 /* Preview.swift in Sources */,
 				1138AC9E2497749300B0BFA5 /* PreviewViewModel.swift in Sources */,
