@@ -22,9 +22,3 @@ public class PreviewViewModel {
     }
     
 }
-
-extension UIImage {
-    func editImage(with name: String) -> UIImage {
-        return self
-    }
-}
