@@ -23,6 +23,7 @@
 		1138ACA524978C2900B0BFA5 /* ImageEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA424978C2900B0BFA5 /* ImageEditing.swift */; };
 		1138ACA724978DD000B0BFA5 /* Selfie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA624978DD000B0BFA5 /* Selfie.swift */; };
 		1138ACA92497A1F800B0BFA5 /* SelfieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA82497A1F800B0BFA5 /* SelfieViewModel.swift */; };
+		1138ACAB2497A3E800B0BFA5 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACAA2497A3E800B0BFA5 /* TextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		1138ACA424978C2900B0BFA5 /* ImageEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditing.swift; sourceTree = "<group>"; };
 		1138ACA624978DD000B0BFA5 /* Selfie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selfie.swift; sourceTree = "<group>"; };
 		1138ACA82497A1F800B0BFA5 /* SelfieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewModel.swift; sourceTree = "<group>"; };
+		1138ACAA2497A3E800B0BFA5 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		1138AC92249656F900B0BFA5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1138ACAA2497A3E800B0BFA5 /* TextButton.swift */,
 				1138AC97249663E500B0BFA5 /* PreviewButton.swift */,
 				1138ACA22497843E00B0BFA5 /* SelfieView.swift */,
 			);
@@ -323,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1138ACAB2497A3E800B0BFA5 /* TextButton.swift in Sources */,
 				1138AC98249663E600B0BFA5 /* PreviewButton.swift in Sources */,
 				1138ACA724978DD000B0BFA5 /* Selfie.swift in Sources */,
 				1138ACA92497A1F800B0BFA5 /* SelfieViewModel.swift in Sources */,

@@ -11,6 +11,11 @@ import UIKit
 
 extension UIView {
     
+    public func addStandardStyle() {
+        self.addBorder()
+        self.roundCorners()
+    }
+    
     public func addBorder() {
         self.layer.borderWidth = 3
         self.layer.borderColor = UIColor.black.cgColor

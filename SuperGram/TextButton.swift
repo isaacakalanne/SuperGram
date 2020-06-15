@@ -1,21 +1,20 @@
 //
-//  PreviewButton.swift
+//  TextButton.swift
 //  SuperGram
 //
-//  Created by Isaac Akalanne on 14/06/2020.
+//  Created by Isaac Akalanne on 15/06/2020.
 //  Copyright © 2020 Believe And Succeed Apps. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-public class PreviewButton: UIButton {
+public class TextButton: UIButton {
     
-    public init(frame: CGRect, image: UIImage) {
+    public init (frame: CGRect, title: String) {
         super.init(frame: frame)
         
-        self.frame = frame // Line may not be necessary
-        self.imageView?.image = image
-        
+        self.setTitle(title, for: .normal)
         self.addStandardStyle()
     }
     
