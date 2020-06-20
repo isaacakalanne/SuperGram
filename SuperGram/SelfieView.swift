@@ -11,11 +11,17 @@ import UIKit
 
 public class SelfieView: UIImageView {
     
-    public init(image: UIImage) {
+    public init(frame: CGRect? = nil, image: UIImage? = nil) {
         super.init(image: image)
         
-        self.image = image
-        self.addBorder()
+        if let frame = frame {
+            self.frame = frame
+        }
+        
+        if let image = image {
+            self.image = image
+        }
+        self.addBorder(.medium)
     }
     
     required init?(coder: NSCoder) {

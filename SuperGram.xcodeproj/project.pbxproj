@@ -18,12 +18,14 @@
 		1138AC98249663E600B0BFA5 /* PreviewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138AC97249663E500B0BFA5 /* PreviewButton.swift */; };
 		1138AC9C249772D400B0BFA5 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138AC9B249772D400B0BFA5 /* Preview.swift */; };
 		1138AC9E2497749300B0BFA5 /* PreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138AC9D2497749300B0BFA5 /* PreviewViewModel.swift */; };
-		1138ACA12497828100B0BFA5 /* ButtonFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA02497828100B0BFA5 /* ButtonFormatting.swift */; };
+		1138ACA12497828100B0BFA5 /* ViewFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA02497828100B0BFA5 /* ViewFormatting.swift */; };
 		1138ACA32497843E00B0BFA5 /* SelfieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA22497843E00B0BFA5 /* SelfieView.swift */; };
 		1138ACA524978C2900B0BFA5 /* ImageEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA424978C2900B0BFA5 /* ImageEditing.swift */; };
 		1138ACA724978DD000B0BFA5 /* Selfie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA624978DD000B0BFA5 /* Selfie.swift */; };
 		1138ACA92497A1F800B0BFA5 /* SelfieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACA82497A1F800B0BFA5 /* SelfieViewModel.swift */; };
-		1138ACAB2497A3E800B0BFA5 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACAA2497A3E800B0BFA5 /* TextButton.swift */; };
+		1138ACAB2497A3E800B0BFA5 /* StandardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138ACAA2497A3E800B0BFA5 /* StandardButton.swift */; };
+		113E54E7249E55E400322D0D /* GeosansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 113E54E6249E55E400322D0D /* GeosansLight.ttf */; };
+		113E54EA249E586100322D0D /* ScreenDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113E54E9249E586100322D0D /* ScreenDimensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +63,14 @@
 		1138AC97249663E500B0BFA5 /* PreviewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewButton.swift; sourceTree = "<group>"; };
 		1138AC9B249772D400B0BFA5 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 		1138AC9D2497749300B0BFA5 /* PreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewModel.swift; sourceTree = "<group>"; };
-		1138ACA02497828100B0BFA5 /* ButtonFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormatting.swift; sourceTree = "<group>"; };
+		1138ACA02497828100B0BFA5 /* ViewFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFormatting.swift; sourceTree = "<group>"; };
 		1138ACA22497843E00B0BFA5 /* SelfieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieView.swift; sourceTree = "<group>"; };
 		1138ACA424978C2900B0BFA5 /* ImageEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditing.swift; sourceTree = "<group>"; };
 		1138ACA624978DD000B0BFA5 /* Selfie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selfie.swift; sourceTree = "<group>"; };
 		1138ACA82497A1F800B0BFA5 /* SelfieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewModel.swift; sourceTree = "<group>"; };
-		1138ACAA2497A3E800B0BFA5 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		1138ACAA2497A3E800B0BFA5 /* StandardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButton.swift; sourceTree = "<group>"; };
+		113E54E6249E55E400322D0D /* GeosansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeosansLight.ttf; sourceTree = "<group>"; };
+		113E54E9249E586100322D0D /* ScreenDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenDimensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +128,8 @@
 				1138AC942496570700B0BFA5 /* Models */,
 				1138AC92249656F900B0BFA5 /* Views */,
 				1138AC962496631300B0BFA5 /* View Models */,
-				1138AC68249652C600B0BFA5 /* Main.storyboard */,
-				1138AC6B249652D300B0BFA5 /* Assets.xcassets */,
-				1138AC6D249652D300B0BFA5 /* LaunchScreen.storyboard */,
-				1138AC70249652D300B0BFA5 /* Info.plist */,
+				113E54E4249E55B600322D0D /* Resources */,
+				113E54E8249E581000322D0D /* Supporting Files */,
 			);
 			path = SuperGram;
 			sourceTree = "<group>";
@@ -153,9 +155,9 @@
 		1138AC92249656F900B0BFA5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1138ACAA2497A3E800B0BFA5 /* TextButton.swift */,
-				1138AC97249663E500B0BFA5 /* PreviewButton.swift */,
+				1138ACAA2497A3E800B0BFA5 /* StandardButton.swift */,
 				1138ACA22497843E00B0BFA5 /* SelfieView.swift */,
+				1138AC97249663E500B0BFA5 /* PreviewButton.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -189,10 +191,38 @@
 		1138AC9F2497823600B0BFA5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1138ACA02497828100B0BFA5 /* ButtonFormatting.swift */,
+				1138ACA02497828100B0BFA5 /* ViewFormatting.swift */,
 				1138ACA424978C2900B0BFA5 /* ImageEditing.swift */,
+				113E54E9249E586100322D0D /* ScreenDimensions.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		113E54E4249E55B600322D0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				113E54E5249E55C300322D0D /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		113E54E5249E55C300322D0D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				113E54E6249E55E400322D0D /* GeosansLight.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		113E54E8249E581000322D0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1138AC68249652C600B0BFA5 /* Main.storyboard */,
+				1138AC6B249652D300B0BFA5 /* Assets.xcassets */,
+				1138AC6D249652D300B0BFA5 /* LaunchScreen.storyboard */,
+				1138AC70249652D300B0BFA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113E54E7249E55E400322D0D /* GeosansLight.ttf in Resources */,
 				1138AC6F249652D300B0BFA5 /* LaunchScreen.storyboard in Resources */,
 				1138AC6C249652D300B0BFA5 /* Assets.xcassets in Resources */,
 				1138AC6A249652C600B0BFA5 /* Main.storyboard in Resources */,
@@ -326,14 +357,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1138ACAB2497A3E800B0BFA5 /* TextButton.swift in Sources */,
+				1138ACAB2497A3E800B0BFA5 /* StandardButton.swift in Sources */,
 				1138AC98249663E600B0BFA5 /* PreviewButton.swift in Sources */,
 				1138ACA724978DD000B0BFA5 /* Selfie.swift in Sources */,
 				1138ACA92497A1F800B0BFA5 /* SelfieViewModel.swift in Sources */,
 				1138AC67249652C600B0BFA5 /* ViewController.swift in Sources */,
 				1138AC9C249772D400B0BFA5 /* Preview.swift in Sources */,
 				1138AC9E2497749300B0BFA5 /* PreviewViewModel.swift in Sources */,
-				1138ACA12497828100B0BFA5 /* ButtonFormatting.swift in Sources */,
+				1138ACA12497828100B0BFA5 /* ViewFormatting.swift in Sources */,
+				113E54EA249E586100322D0D /* ScreenDimensions.swift in Sources */,
 				1138AC63249652C600B0BFA5 /* AppDelegate.swift in Sources */,
 				1138ACA32497843E00B0BFA5 /* SelfieView.swift in Sources */,
 				1138ACA524978C2900B0BFA5 /* ImageEditing.swift in Sources */,

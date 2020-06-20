@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public class SelfieViewModel {
     
@@ -14,6 +15,14 @@ public class SelfieViewModel {
     
     public init (selfie: Selfie) {
         self.selfie = selfie
+    }
+    
+    var frame: CGRect {
+        return CGRect(x: 10, y: 10, width: 50, height: 50)
+    }
+    
+    var image: UIImage {
+        return selfie.image
     }
     
 }
