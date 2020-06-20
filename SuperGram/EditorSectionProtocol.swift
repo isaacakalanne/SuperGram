@@ -1,5 +1,5 @@
 //
-//  ScreenDimensions.swift
+//  EditorSectionProtocol.swift
 //  SuperGram
 //
 //  Created by Isaac Akalanne on 20/06/2020.
@@ -9,11 +9,7 @@
 import Foundation
 import UIKit
 
-struct Screen {
-    let width = UIScreen.main.bounds.size.width
-    let height = UIScreen.main.bounds.size.height
-}
-
-extension CGFloat {
-    
+protocol EditorSection {
+    var height: CGFloat { get set }
+    var sectionType: String { get set }
 }

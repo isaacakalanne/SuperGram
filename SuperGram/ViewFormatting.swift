@@ -9,17 +9,11 @@
 import Foundation
 import UIKit
 
-public enum Thickness {
-    case light
-    case medium
-    case heavy
-}
-
 extension UIView {
     
     public func addStandardStyle() {
         self.addBorder(.light)
-        self.roundCorners()
+        self.roundCorners(.standard)
     }
     
     public func addBorder(_ thickness: Thickness) {
@@ -43,8 +37,22 @@ extension UIView {
         return width
     }
     
-    public func roundCorners() {
+    public func roundCorners(_ roundness: Roundness) {
         self.clipsToBounds = true
-        self.layer.cornerRadius = 13
+        let radius = getRedius(for: roundness)
+        self.layer.cornerRadius = radius
+    }
+    
+    private func getRedius(for roundness: Roundness) -> CGFloat {
+        var radius: CGFloat = 0
+        switch roundness {
+        case .small:
+            radius = 7
+        case .standard:
+            radius = 13
+        case .large:
+            radius = 18
+        }
+        return radius
     }
 }

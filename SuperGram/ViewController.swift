@@ -25,9 +25,11 @@ class ViewController: UIViewController {
     func createInterface() {
         addSelfieView()
         addRemoveImageButton()
+        addEditorView()
     }
     
     func addSelfieView() {
+        selfie = Selfie(image: UIImage())
         let viewModel = SelfieViewModel(selfie: selfie)
         let frame = viewModel.frame
         let image = viewModel.image
@@ -41,7 +43,17 @@ class ViewController: UIViewController {
         removeButton = StandardButton(frame: frame, title: "X")
         self.view.addSubview(removeButton)
     }
-
+    
+    func addEditorView() {
+        let editOptions = EditOptions(category: Category.Base)
+        let editor = Editor(sections: [editOptions])
+        let editorViewModel = EditorViewModel(editor: editor)
+        let frame = editorViewModel.frame
+        
+        let editorView = EditorView(frame: frame)
+        editorView.backgroundColor = .systemBlue
+        self.view.addSubview(editorView)
+    }
 
 }
 

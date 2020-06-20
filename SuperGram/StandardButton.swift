@@ -19,7 +19,6 @@ public class StandardButton: UIButton {
             self.setTitle(title, for: .normal)
             self.setTitleColor(.black, for: .normal)
             self.titleLabel?.font = UIFont(name: "GeosansLight", size: 20)
-            print("set title!")
         }
         
         if let image = image {
